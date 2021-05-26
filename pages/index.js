@@ -12,6 +12,9 @@ export default function Home() {
       <Head>
         <title>Vasu Bansal</title>
         <link rel="icon" href="/v.svg" />
+        <meta name="description" content="Vasu Bansal's PortFolio, Get any full stack job done in no time with competitive pricing" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, Python, REST API, GraphQL, Node.js, Django, Flask, Next.js, React.js, SwiftUI, Vasu Bansal, Porfolio" />
+        <meta name="author" content="Vasu Bansal" />
       </Head>
 
       <Navbar />
