@@ -21,11 +21,13 @@ export default function Home() {
         <meta property="og:description" content="Vasu Bansal's PortFolio, Get any full stack job done in no time with competitive pricing" />
         <meta property="og:author" content="Vasu Bansal" />
         <meta property="og:keywords" content="HTML, CSS, JavaScript, Python, REST API, GraphQL, Node.js, Django, Flask, Next.js, React.js, SwiftUI, Vasu Bansal, Porfolio" />
+        <meta name="description" content="Vasu Bansal's PortFolio, Get any full stack job done in no time with competitive pricing" />
+
         <meta name="theme-color" content="#30D5C8" />
         
       </Head>
 
-      <Navbar />
+      <Navbar src="v.svg" />
 
       <Landing />
       

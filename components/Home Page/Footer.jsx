@@ -11,7 +11,7 @@ function Footer() {
 						<p className="opacity-60">Based in Charlotte, NC</p>
 					  </div>
 					  <div className="w-full sm:w-1/5 flex flex-col space-y-4">
-						<a className="opacity-60">Projects</a>
+						<a className="opacity-60" href="/projects/Projects">Projects</a>
 						<a className="opacity-60">Services</a>
 						<a className="opacity-60">Hobbies</a>
 						<a className="opacity-60">About Me</a>
