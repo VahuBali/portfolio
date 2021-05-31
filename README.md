@@ -1,23 +1,21 @@
-# Next.js + Tailwind CSS Example
+# The Official Vasu Bansal Portfolio
+This website showcases Vasu's most proud programming builds as a **Full Stack Web and Mobile Developer**.
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) (v2.1) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+***
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+## This website can be found at:
 
-## Deploy your own
+   [https://www.vasubansal.ml/](https://www.vasubansal.ml/)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+***
+## How to use locally:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+    git clone https://github.com/VahuBali/portfolio.git
+    cd portfolio
+    yarn dev
+*And walla my website is running locally on your machine*
+***
 
-## How to use
+# Important
+This repository is backed by the GNU GENERAL PUBLIC LICENSE which states that you can use this code for commercial and private use as long as you disclose the source code and use the same license... read more about it in `LICENSE.txt` file. 
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
