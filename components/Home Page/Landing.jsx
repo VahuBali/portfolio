@@ -9,12 +9,12 @@ function Landing() {
         <p className="text-xl sm:text-xl md:text-2xl font-semibold text-gray-600 pt-5 mx-5 md:mr-0">I develop all sorts of applications from web to mobile for clients</p>
         <div className="flex flex-col md:flex-row mt-8 w-full">
           <button className="bg-gradient-to-r from-blue-300 to-blue-400 py-4 px-7 rounded-full text-gray-200 text-xl mt-5 m-auto" onClick={(e) => {e.preventDefault(); window.location.href='/projects/Projects';}}>Check Out My Projects</button>
-          <button className="bg-gradient-to-r from-blue-300 to-blue-400 py-4 px-7 rounded-full text-gray-200 text-xl mt-5 m-auto">Check out My Services</button>
+          <button className="bg-gradient-to-r from-blue-300 to-blue-400 py-4 px-7 rounded-full text-gray-200 text-xl mt-5 m-auto" onClick={(e) => {e.preventDefault(); window.location.href='/services/services'}}>Check out My Services</button>
         </div>
 
       </div>
       <div className="md:pr-16 w-full px-5 md:w-1/2 m-auto">
-        <Image src="/person.svg" width={600} height={600} className="" />
+        <Image src="/person.svg" width={600} height={600} className="" alt="landing_image"/>
       </div>
     </div>
   )

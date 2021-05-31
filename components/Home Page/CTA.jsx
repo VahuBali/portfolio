@@ -10,7 +10,7 @@ export default function CTA() {
 		<div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
 		  <div className="inline-flex rounded-md shadow">
 			<a
-			  href="#"
+			  href="/hire_me/hire_me"
 			  className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
 			>
 			Hire Me
@@ -18,7 +18,7 @@ export default function CTA() {
 		  </div>
 		  <div className="ml-3 inline-flex rounded-md shadow">
 			<a
-			  href="#"
+			  href="/contact_me/contact_me"
 			  className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50"
 			>
 			  Contact Me

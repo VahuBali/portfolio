@@ -9,9 +9,9 @@ const features = [
 	icon: GlobeAltIcon,
   },
   {
-	name: `REST API / Gatsby`,
+	name: `REST API / GraphQL`,
 	description:
-	  `I can create fast and reliable backend API's using REST frameworks like Express.js and Django or using Gatsby, Your Choice.`,
+	  `I can create fast and reliable backend API's using REST frameworks like Express.js and Django or using GraphQL, Your Choice.`,
 	icon: ServerIcon,
   },
   {
@@ -62,7 +62,7 @@ export default function Services() {
 			The Services that I Offer You
 		  </p>
 		  <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-			You can hire me to do any full stack development project and I should be able to tackle it
+			You can hire me to do any full stack development project and I will be able to tackle it
 		  </p>
 		</div>
 

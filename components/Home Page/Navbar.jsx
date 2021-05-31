@@ -32,7 +32,7 @@ const menu = [
   {
     name: "My Services",
     description: "All the services that I offer",
-    href: "#",
+    href: "/services/services",
     icon: ServerIcon,
   },
   {
@@ -44,25 +44,25 @@ const menu = [
   {
     name: "My Hobbies",
     description: "All of my Hobbies",
-    href: "#",
+    href: "/hobbies/hobbies",
     icon: ArchiveIcon,
   },
   {
     name: "About Me",
     description: "Information about myself",
-    href: "#",
+    href: "/about_me/about_me",
     icon: EmojiHappyIcon,
   },
   {
     name: "Contact Me",
     description: "Find My Details",
-    href: "#",
+    href: "/contact_me/contact_me",
     icon: ChatAlt2Icon,
   },
   {
     name: "Hire Me",
     description: "Hire Me",
-    href: "#",
+    href: "/hire_me/hire_me",
     icon: BriefcaseIcon,
   },
 ];
@@ -141,25 +141,25 @@ export default function Navbar(props) {
                   Projects
                 </a>
                 <a
-                  href="#"
+                  href="/services/services"
                   className="text-base font-medium text-gray-500 hover:text-gray-900"
                 >
                   Services
                 </a>
                 <a
-                  href="#"
+                  href="/hobbies/hobbies"
                   className="text-base font-medium text-gray-500 hover:text-gray-900"
                 >
                   Hobbies
                 </a>
                 <a
-                  href="#"
+                  href="/about_me/about_me"
                   className="text-base font-medium text-gray-500 hover:text-gray-900"
                 >
                   About Me
                 </a>
                 <a
-                href="#"
+                href="/contact_me/contact_me"
                 className="text-base font-medium text-gray-500 hover:text-gray-900"
                 >
                 Contact Me
@@ -167,7 +167,7 @@ export default function Navbar(props) {
               </Popover.Group>
               <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                 <a
-                  href="#"
+                  href="/hire_me/hire_me"
                   className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700"
                 >
                   Hire Me
