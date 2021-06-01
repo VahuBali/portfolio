@@ -32,82 +32,42 @@ const menu = [
   {
     name: "My Services",
     description: "All the services that I offer",
-    href: "/services/services",
+    href: "services",
     icon: ServerIcon,
   },
   {
     name: "My Projects",
     description: "A list of all the projects that I have made",
-    href: "/projects/Projects",
+    href: "Projects",
     icon: ClipboardCheckIcon,
   },
   {
     name: "My Hobbies",
     description: "All of my Hobbies",
-    href: "/hobbies/hobbies",
+    href: "hobbies",
     icon: ArchiveIcon,
   },
   {
     name: "About Me",
     description: "Information about myself",
-    href: "/about_me/about_me",
+    href: "about-me",
     icon: EmojiHappyIcon,
   },
   {
     name: "Contact Me",
     description: "Find My Details",
-    href: "/contact_me/contact_me",
+    href: "contact-me",
     icon: ChatAlt2Icon,
   },
   {
     name: "Hire Me",
     description: "Hire Me",
-    href: "/hire_me/hire_me",
+    href: "hire-me",
     icon: BriefcaseIcon,
   },
 ];
 
-const Projects = [
-  {
-    name: "Talk Tech Teen Tech Website",
-    description: "A Podcast Web Application with Advanced Backend Integrations",
-    href: "#",
-    icon: MicrophoneIcon,
-  },
-  {
-    name: "No Stop Finance",
-    description:
-      "A website to get acess to your favorite investment trackers and apps to make your next purchase of a stock memorable",
-    href: "#",
-    icon: CreditCardIcon,
-  },
-  {
-    name: "Dr.Pirocks",
-    description: "A multipurpose bot created using Discord.py",
-    href: "#",
-    icon: ChipIcon,
-  },
-  {
-    name: "FanduVasu",
-    description: "A multipurpose, heavily scalable Discord.js bot",
-    href: "#",
-    icon: DesktopComputerIcon,
-  },
-  {
-    name: "SwiftUI War Game",
-    description:
-      "A war game created entirely using SwiftUI with advanced features such as score collection and much more",
-    href: "#",
-    icon: ShieldExclamationIcon,
-  },
-  {
-    name: "SwiftUI Slots Game",
-    description:
-      "A slots game with an amazing UI which scores slots using advanced syntax in SwiftUI",
-    href: "#",
-    icon: DeviceMobileIcon,
-  },
-];
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -135,31 +95,31 @@ export default function Navbar(props) {
 
               <Popover.Group as="nav" className="hidden md:flex space-x-10">
                 <a
-                  href="../../projects/Projects"
+                  href="Projects"
                   className="text-base font-medium text-gray-500 hover:text-gray-900"
                 >
                   Projects
                 </a>
                 <a
-                  href="/services/services"
+                  href="services"
                   className="text-base font-medium text-gray-500 hover:text-gray-900"
                 >
                   Services
                 </a>
                 <a
-                  href="/hobbies/hobbies"
+                  href="hobbies"
                   className="text-base font-medium text-gray-500 hover:text-gray-900"
                 >
                   Hobbies
                 </a>
                 <a
-                  href="/about_me/about_me"
+                  href="about-me"
                   className="text-base font-medium text-gray-500 hover:text-gray-900"
                 >
                   About Me
                 </a>
                 <a
-                href="/contact_me/contact_me"
+                href="contact-me"
                 className="text-base font-medium text-gray-500 hover:text-gray-900"
                 >
                 Contact Me
@@ -167,7 +127,7 @@ export default function Navbar(props) {
               </Popover.Group>
               <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                 <a
-                  href="/hire_me/hire_me"
+                  href="hire-me"
                   className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700"
                 >
                   Hire Me

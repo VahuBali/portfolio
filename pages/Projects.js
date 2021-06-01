@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from "../../components/Home Page/Navbar";
-import Overview from "../../components/Projects/overview"
+import Navbar from "../components/Home Page/Navbar";
+import Overview from "../components/Projects/overview"
 
 function Projects() {
     return (

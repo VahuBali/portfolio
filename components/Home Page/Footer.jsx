@@ -7,18 +7,18 @@ function Footer() {
 				  <div className="xl:px-40 pb-12 lg:px-20 md:px-10 sm:px-5 px-10">
 					<div className="w-full pt-12 flex flex-col sm:flex-row space-y-2 justify-start">
 					  <div className="w-full sm:w-2/5 pr-6 flex flex-col space-y-4">
-						<img src="v.svg" className="w-1/4" />
+						<img src="v.svg" className="w-1/4" alt="v-footer"/>
 						<p className="opacity-60">Based in Charlotte, NC</p>
 					  </div>
 					  <div className="w-full sm:w-1/5 flex flex-col space-y-4">
-						<a className="opacity-60" href="/projects/Projects">Projects</a>
-						<a className="opacity-60">Services</a>
-						<a className="opacity-60">Hobbies</a>
-						<a className="opacity-60">About Me</a>
+						<a className="opacity-60" href="Projects">Projects</a>
+						<a className="opacity-60" href="services">Services</a>
+						<a className="opacity-60" href="hobbies">Hobbies</a>
+						<a className="opacity-60" href="about-me">About Me</a>
 					  </div>
 					  <div className="w-full sm:w-1/5 flex flex-col space-y-4">
-						<a className="opacity-60">Hire Me</a>
-						<a className="opacity-60">Contact Me</a>
+						<a className="opacity-60" href="hire-me">Hire Me</a>
+						<a className="opacity-60" href="contact-me">Contact Me</a>
 					  </div>
 					  <div className="w-full sm:w-1/5 pt-6 flex items-end mb-1">
 						<div className="flex flex-row space-x-4">

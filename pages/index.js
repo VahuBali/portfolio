@@ -13,7 +13,7 @@ export default function Home() {
       <Head>
         <title>Vasu Bansal</title>
         <link rel="icon" href="/v.svg" />
-        
+        <html lang="en" />
         <meta property="og:title" content="Vasu Bansal" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.vasubansal.ml/" />

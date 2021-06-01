@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
-import Navbar from '../../components/Home Page/Navbar'
-import Services_comp from '../../components/Services/Services'
+import Navbar from '../components/Home Page/Navbar'
+import Services_comp from '../components/Services/Services'
 
 export default function Services() {
     return (
@@ -22,7 +22,7 @@ export default function Services() {
                 <meta name="theme-color" content="#30D5C8" />
             </Head>
 
-            <Navbar src="../../v.svg"/>
+            <Navbar src="v.svg"/>
 
             <Services_comp />
 
