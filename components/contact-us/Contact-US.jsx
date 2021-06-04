@@ -23,7 +23,7 @@ export default function Contact_US() {
 
                 </div>
                 </div>
-                <button className="flex mx-auto mt-16 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg" onClick={(e) => {e.preventDefault(); window.location.href='hire-me';}}>Or you can Hire Me right away!</button>
+                <button className="flex mx-auto mt-16 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded-lg text-lg" onClick={(e) => {e.preventDefault(); window.location.href='hire-me';}}>Or you can Hire Me right away!</button>
             </div>
             </section>
 
