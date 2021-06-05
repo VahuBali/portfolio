@@ -24,7 +24,7 @@ export default function Testimonial() {
                 </div>
                 <div className="p-4 lg:w-1/3">
                     <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                    <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Rikhil Chilka</h2>
+                    <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Kelvin Mathews</h2>
                     <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Created an extremely great website</h1>
                     <p className="leading-relaxed mb-3">Vasu created an extremely scalable and comprehensive web application that perfectly fit my needs. He made it so that I can "dynamically" add data into websites with a really nice GUI interface. All in all, I would highly recommend Vasu Bansal for your next website.</p>
 

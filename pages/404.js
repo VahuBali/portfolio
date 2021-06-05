@@ -5,7 +5,7 @@ export default function Custom404() {
     return (
         <div>
         <Head>
-        <title>Vasu Bansal</title>
+        <title>404</title>
         <link rel="icon" href="/v.svg" />
         <html lang="en" />
         <meta property="og:title" content="Vasu Bansal" />
