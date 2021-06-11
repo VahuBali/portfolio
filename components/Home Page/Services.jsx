@@ -9,9 +9,9 @@ const features = [
 	icon: GlobeAltIcon,
   },
   {
-	name: `REST API / GraphQL`,
+	name: `REST API (Django, Express)`,
 	description:
-	  `I can create fast and reliable backend API's using REST frameworks like Express.js and Django or using GraphQL, Your Choice.`,
+	  `I can create fast and reliable backend API's using REST frameworks such as Express.js and Django, Your Choice.`,
 	icon: ServerIcon,
   },
   {

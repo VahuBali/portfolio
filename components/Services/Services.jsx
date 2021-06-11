@@ -29,8 +29,8 @@ export default function Services_comp() {
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
           </svg>
           </div>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-2">REST API (Django, Express) / GraphQL</h2>
-          <p className="leading-relaxed text-base">I can build backend applications with advanced integrations using REST API frameworks such as Django and Express.js as well as GraphQL, whichever one suits your needs.</p>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-2">REST API (Django, Express)</h2>
+          <p className="leading-relaxed text-base">I can build backend applications with advanced integrations using REST API frameworks such as Django and Express.js, whichever one suits your needs.</p>
         </div>
       </div>
       <div className="xl:w-1/3 md:w-1/2 p-4">
